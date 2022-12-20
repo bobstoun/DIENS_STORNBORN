@@ -1,7 +1,13 @@
 ﻿
-// ВИД1
-void METHOT();
+// ВИД2
+void mfo1(string msg,int count)
 {
-    Console.WriteLine("АВТОР...");
+int i = 0;
+while (i < count)
+{
+    Console.WriteLine(msg);
+    i++;
 }
-METHOT();
+}
+mfo1("Hello", 10);
+
