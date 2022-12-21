@@ -1,13 +1,9 @@
-﻿
-// ВИД2
-void mfo1(string msg,int count)
+﻿// ВИД3
+int metod()
 {
-int i = 0;
-while (i < count)
-{
-    Console.WriteLine(msg);
-    i++;
+    return DateTime.Now.Year;
 }
-}
-mfo1("Hello", 10);
+int Year = metod();
+Console.WriteLine(Year);
+
 
