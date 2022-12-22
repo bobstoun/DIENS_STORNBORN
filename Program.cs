@@ -1,9 +1,16 @@
-﻿// ВИД3
-int metod()
+﻿// ВИД4
+string vesion4(int count, string Text)
 {
-    return DateTime.Now.Year;
+int i = 0;
+string result = string.Empty;
+for (int i = 0; i < count;i++)
+{
+result = (result + Text);
 }
-int Year = metod();
-Console.WriteLine(Year);
+return result;
+}
+string res = vesion4(4, "hello");
+Console.WriteLine(res);
+
 
 
