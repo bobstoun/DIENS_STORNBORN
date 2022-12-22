@@ -1,16 +1,11 @@
-﻿// ВИД4
-string vesion4(int count, string Text)
+﻿
+for (int i = 2; i <= 9;i++ )
 {
-int i = 0;
-string result = string.Empty;
-for (int i = 0; i < count;i++)
+ for(int j = 2; j <= 9;j++)
+
 {
-result = (result + Text);
+    Console.WriteLine($"{i}*{j} = {i*j}");
 }
-return result;
+Console.WriteLine();
+
 }
-string res = vesion4(4, "hello");
-Console.WriteLine(res);
-
-
-
